@@ -1,0 +1,356 @@
+/* FONTS */
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: white;
+    
+}
+
+body {
+    background-color: black;
+}
+
+
+
+
+
+/* ************ 3D MODEL SECTION ************
+/* #aside {
+    height: 600px;
+    width: 600px;
+
+  
+    border: 1px solid white;
+
+} */
+
+/* #aside model-viewer {
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 550px;
+    border: 1px solid blue;
+
+}
+
+.config-container {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+} */
+
+
+
+
+
+
+#logo {
+    height: 80px;
+    width: auto;
+}
+
+
+/* nav styling */
+
+
+.navbar-brand {
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+
+}
+
+/* .navbar-nav {
+    width: 100%;
+} */
+
+.nav-item {
+    padding: 20px 8px;
+    margin: 0px 3px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgb(193, 193, 193);
+    position: static;
+}
+
+.nav-item.active {
+    color: white;
+}
+
+.nav-item:hover {
+    color: white;
+}
+
+a {
+    color: inherit !important;
+}
+
+.nav-link {
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+.fa-angle-down {
+    padding-left: 10px;
+}
+
+
+
+.dropdown-menu {
+    margin-top: 0px;
+    /* border: 1px solid rgb(126, 126, 126); */
+    box-shadow: 0px 0px 38px 5px black;
+    background-color: #000000;
+    color: white;
+    padding: 50px 50px 30px 50px;
+
+}
+
+#dropdown-menu1 {
+    position: absolute;
+    left: 165px;
+
+}
+
+#dropdown-menu2 {
+    position: absolute;
+    left: 265px;
+}
+
+#dropdown-menu3 {
+    position: absolute;
+    left: 360px;
+}
+
+#dropdown-menu4 {
+    position: absolute;
+    left: 1100px;
+}
+
+.tab {
+    margin-bottom: 20px;
+    width: 230px;
+
+}
+
+.tab:hover {
+    color: #ca000d !important;
+}
+
+.dropdown-item {
+    padding: 0px;
+}
+
+.dropdown-item:hover {
+    background-color: inherit;
+}
+
+@media (max-width: 767px) {
+    .nav-item {
+        width: 100%;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .dropdown-menu {
+        left: 0 !important;
+        position: relative !important;
+        padding: 20px;
+    }
+
+
+
+}
+
+
+
+
+
+.navbar-toggler {
+    background-color: #ca000d;
+}
+
+.navRight {
+    padding-right: 50px;
+}
+
+#dd {
+    background-color: #ca000d;
+}
+
+
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100%;
+    /* min-height: 300px; */
+}
+
+.carousel-inner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(0, 0, 0, 0.4); */
+    z-index: 1;
+}
+
+
+/* */
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* #videoDiv {
+
+}
+
+#video {
+    height: 90vh;
+    width: 100vw; */
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    padding-top: 56.25%;
+    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #f2f2f2;
+    border-top: 6px solid #1835f6;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#configDiv {
+    background-color: rgb(209, 160, 209);
+    height: 100vh;
+}
+
+model-viewer {
+    height: 500px;
+    width: 500px;
+}
+
+/* .box {
+    width: 200px;
+    background-color: black;
+    aspect-ratio: 1;
+    clip-path: polygon(98.75% 61.10%,76.63% 92.32%,38.90% 98.75%,7.68% 76.63%,1.25% 38.90%,23.37% 7.68%,61.10% 1.25%,92.32% 23.37%,98.75% 61.10%,calc(92.32% - 2.54px) calc(23.37% - -1.60px),calc(61.10% - 0.67px) calc(1.25% - -2.93px),calc(23.37% - -1.60px) calc(7.68% - -2.54px),calc(1.25% - -2.93px) calc(38.90% - -0.67px),calc(7.68% - -2.54px) calc(76.63% - 1.60px),calc(38.90% - -0.67px) calc(98.75% - 2.93px),calc(76.63% - 1.60px) calc(92.32% - 2.54px),calc(98.75% - 2.93px) calc(61.10% - 0.67px),calc(92.32% - 2.54px) calc(23.37% - -1.60px));
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    } */
+
+
+
+
+
+
+
