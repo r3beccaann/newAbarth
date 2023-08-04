@@ -115,3 +115,5 @@ A footer is displayed at the bottom of the viewpoint, containing quick links and
 To improve this project, and to improve its functionality, further research needs to be done into the hosting issue of Google’s model viewer. This aspect makes the site interactive thus is a great loss without this.
 
 An implementation of back-end features such as allowing the user to register would be effective. In addition to this, the development of other model pages would further increase the functionality of the site.
+
+Another improvement which would be rectified if this was put into development publically, could be to clean up the styling and to improve the mobile appearance.
