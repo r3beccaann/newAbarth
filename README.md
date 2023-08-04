@@ -13,7 +13,7 @@ This application does not use any server side technologies. The user can downloa
 Features
 Upon loading of the application, the user can navigate through a ‘mega-menu’ style nav bar. The links intentionally do not work. Also featured in the navigation is several other buttons and a sign-in feature. 
 
-<b>Carousel</b>
+<h3>Carousel</h3>
 A carousel also appears displaying information about the new car.
 
 // image 
