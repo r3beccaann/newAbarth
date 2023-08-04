@@ -107,3 +107,5 @@ To improve this project, and to improve its functionality, further research need
 An implementation of back-end features such as allowing the user to register would be effective. In addition to this, the development of other model pages would further increase the functionality of the site.
 
 Another improvement which would be rectified if this was put into development publically, could be to clean up the styling and to improve the mobile appearance.
+
+Finally, the use of a button to allow accessability would also be a good improvement, so that user can toggle the appearance of the site to help with making the text larger / increasing the contrast.
