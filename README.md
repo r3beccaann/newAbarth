@@ -3,7 +3,7 @@
 
 This project is a single-page application using front-end only. This is built to allow the client to view information about the new Abarth model ‘Competizione’. 
 
-The project was built to practice working with HTML, JS, jQuery DOM Manipulation and CSS, within the front-end. Leaflet.js - a map framework was also used to display dealerships within the UK.
+The project was built to showcase my skills working with HTML, JS, jQuery DOM Manipulation and CSS, within the front-end. Leaflet.js - a map framework was also used to display dealerships within the UK.
 
 An eye catching feature is the ‘3D-model’ configurator, allowing the user to select a paint colour and then navigate an interactive model. Due to hosting restrictions and GLB files not being supported, this was later changed to image files. To view all 3D models see the ‘assets’ folder.
 
