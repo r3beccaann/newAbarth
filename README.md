@@ -21,7 +21,6 @@ A carousel also appears displaying information about the new car.
 <h3>Explore the Model</h3>
 The next section features the usage of jQuery to manipulate the DOM. Once the user clicks the explore button, the text changes to reveal further details about the car.
 
-
 <img src="img/image2.png" height="600px" width="auto">
 
 
@@ -66,6 +65,10 @@ The next section is the configuration section, where a user can select a colour 
 Below is an image of one of the 3D models which were first implemented until hosted. Please also see a video attached to show what the interaction would look like.
 
 <img src="img/image22.png" height="600px" width="auto">
+
+
+
+https://github.com/r3beccaann/newAbarth/assets/106391103/c4c74ca9-aa90-464c-90de-a19bb90d22f0
 
 
 
