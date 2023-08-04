@@ -16,7 +16,7 @@ Upon loading of the application, the user can navigate through a ‘mega-menu’
 <h3>Carousel</h3>
 A carousel also appears displaying information about the new car.
 
-<img src="img/1.png">
+<img src="img/1.png" height="200px" width="auto">
 
 <h3>Explore the Model</h3>
 The next section features the usage of jQuery to manipulate the DOM. Once the user clicks the explore button, the text changes to reveal further details about the car.
