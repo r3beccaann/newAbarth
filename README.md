@@ -63,9 +63,11 @@ The next section is the configuration section, where a user can select a colour 
 <img src="img/image14.png" height="600px" width="auto">
 
 <h4>Original 3d Models</h4>
-Below are images of the 3D models which were first implemented until hosted 
+Below is an image of one of the 3D models which were first implemented until hosted. Please also see a video attached to show what the interaction would look like.
 
 <img src="img/image22.png" height="600px" width="auto">
+
+
 
 <h3>Dealer Locator w/ Leaflet.js</h3>
 The next section uses a library called leaflet.js, displaying local dealerships, along with a link to their website.
