@@ -7,7 +7,8 @@ The project was built to showcase my skills working with HTML, JS, jQuery DOM Ma
 
 An eye catching feature is the ‘3D-model’ configurator, allowing the user to select a paint colour and then navigate an interactive model. Due to hosting restrictions and GLB files not being supported, this was later changed to image files. To view all 3D models see the ‘assets’ folder. 
 
-*UPDATE* After multiple hours of trying, I have managed to get a 3d file to work on desktop devices. This does however take a while to load. For the purpose of demonstration, the 3d model aspect has only been applied to 'NUOVO BLACK'. This subsequently does not work on mobile.
+*UPDATE* 
+After multiple hours of trying, I have managed to get a 3d file to work on desktop devices. This does however take a while to load. For the purpose of demonstration, the 3d model aspect has only been applied to 'NUOVO BLACK'. This subsequently does not work on mobile.
 
 <h2>Usage</h2>
 This application does not use any server side technologies. The user can download this through the link above the repo.
